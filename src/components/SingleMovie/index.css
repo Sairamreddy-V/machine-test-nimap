@@ -1,0 +1,138 @@
+.cast-main-container{
+    background-color: #384042;
+    padding:20px;
+    min-height: 100vh;
+}
+.movie-details-container{
+    background-image:linear-gradient(to right,#000000,rgb(40, 29, 29));
+    width:100%;
+    border-radius:7px;
+    display: flex;
+}
+.movie-details-text-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    @media (max-width:1120px) {
+        width: 60%;
+    }
+    @media(max-width:768px){
+        width:100%;
+    }
+}
+.image-text-container{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    @media (max-width:512px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.movie-image{
+    height: 280px;
+    width:200px;
+    margin-right: 5px;
+    @media (max-width:512px) {
+        height: 300px;
+        width: 250px;
+        margin-top: 10px;
+    }
+}
+.text-main-container{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    @media (max-width:512px) {
+        align-self:flex-start ;
+    }
+}
+.movie-title{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.movie-rating{
+    color:#1347c1;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.span-elements-container{
+    display: flex;
+    align-items: center;
+}
+.span-element{
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color:#ffffff;
+    flex-shrink: 0;
+    align-self: flex-end;
+}
+.genre-ul-container{
+    list-style-type: none;
+    display: flex;
+}
+.genre-items{
+    color:#6685cc;
+    font-size: 14px;
+}
+.release-date{
+    color:#ffffff;
+    font-size: 12px;
+}
+.overview-h{
+    color:#ffffff;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.overview-p{
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 12px;
+}
+.backdrop-image{
+    @media (max-width:1120px) {
+        width: 40%;
+    }
+    @media(max-width:768px){
+        display: none;
+    }
+    height: 400px;
+    width: 50%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.cast-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cast-h{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#ffffff;
+}
+.cast-ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    align-self: center;
+}
+.no-cast-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-cast-heading{
+    font-size: 32px;
+    color: #ffffff;
+}

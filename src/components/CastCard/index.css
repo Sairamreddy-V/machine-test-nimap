@@ -1,0 +1,30 @@
+.li-item{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cast-name{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+.cast-character{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    align-self: flex-start;
+}
+.cast-image{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
